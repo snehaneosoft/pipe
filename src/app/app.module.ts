@@ -2,13 +2,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { TraininfoComponent } from './traininfo/traininfo.component';
+import { OrderModule } from 'ngx-order-pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TraininfoComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,OrderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
